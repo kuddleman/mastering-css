@@ -1,0 +1,21 @@
+body {
+  font-family: 'Heebo', sans-serif;
+  font-size: 1.1em;
+}
+
+div.wrapper {
+  border: 1px solid black;
+  width: 80%;
+  margin: 0 auto;
+  padding: 3%;
+}
+
+p {
+  margin-bottom: 2%;
+  text-indent: 2%;
+  line-height: 1.5;
+}
+
+p.special {
+  font-style: italic;
+}
