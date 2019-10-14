@@ -1,6 +1,6 @@
 body {
   font-family: 'Poppins', sans-serif;
-  background-color: papayawhip
+  background-color: papayawhip;
 }
 
 
@@ -29,6 +29,6 @@ p {
   text-align: justify;
 }
 
-p{
+p {
   margin-bottom: 2%;
 }
