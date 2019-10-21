@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>#4 Puppy Sign-up form</title>
+  
+  <style>
+    body {
+      font-family: 'Nanum Gothic', sans-serif;
+    }
+    #container {
+      width: 80%;
+      margin: 0 auto;
+      border: 2px solid black;
+      margin-top: 10%;
+      padding: 3%;
+    }
+
+    form {
+      width: 80%;
+      
+      background-color: beige;
+    }
+
+    input {
+      width: 100%;
+      height: 30px;
+      padding: 10px;
+      font-size: 1.5em;
+      border: none;
+      border-bottom: 2px dashed black;
+      margin-bottom: 10px;
+    }
+
+    label {
+      font-size: 1.5em;
+    }
+
+    input#puppyBirthdate {
+      font-family: 'Nanum Gothic', sans-serif;
+    }
+
+    div#vaccinations {
+      width: 100%;
+      display: flex;
+    }
+    input[type=checkbox] {
+      font-size: .5em;
+  
+      
+    }
+
+    select {
+      width: 100%;
+      font-size: 1.5em;
+      font-family: 'Nanum Gothic', sans-serif;
+      margin-bottom: 15px;
+
+    }
+
+    p {
+      font-size: 1.5em;
+    }
+
+    button {
+      width: 100%;
+      height: 40px;
+      font-size: 1.5em;
+      background-color: orange;
+      border-radius: 20px;
+      color: white;
+
+    }
+  
+  </style>
+</head>
+<body>
+    <div id="container">
+      <h2>Puppy Sign-Up Form</h2>
+      <form action="#" method="post">
+        <input type="text" id="ownersName" placeholder="Owner's Name"/>
+        <br>
+        <input type="tel" id="phone" placeholder="Best cell no. to reach you"/>
+        <br>
+        <input type="text" id="puppyName" placeholder="What is your puppy's name?"/>
+        <br>
+        <label for="puppyBirthdate">When is your puppy's birthday</label>
+        <input type="date" id="puppyBirthdate">
+        <br>
+        <input type="text" id="breed" placeholder="What is your puppy's breed?"/>
+        <br>
+       
+        <p>Check all the vaccinations your puppy has had:</p>
+        <div id="vaccinations">
+        <label for="Parvo" class="vaccination-label">
+        <input type="checkbox" name="Parvo" value="Parvo">
+        <span class="vaccination-name">Parvo</span>
+       
+        </label>
+        <label for="Distemper" class="vaccination-label">
+        <input type="checkbox" name="Parvo" value="Parvo">
+        <span class="vaccination-name">Distemper</span>
+        </label>
+        <label for="RabiesA" class="vaccination-label">
+        <input type="checkbox" name="Parvo" value="Parvo">
+        <span class="vaccination-name">RabiesA</span>
+        </label>
+
+        
+
+        </div>
+
+
+        
+      
+      
+        <br>
+        <p>How did you hear about us?</p>
+        <select name="referral" id="referral">
+          <option value="radio">radio</option>
+          <option value="driving-by">driving by</option>
+          <option value="friend/neighbor">friend/neighbor</option>
+        </select>
+        <br>
+        <button>Sign up my baby up for puppy goodies and delights!</button>
+
+      </form>
+    </div>
+  
+</body>
+</html>
