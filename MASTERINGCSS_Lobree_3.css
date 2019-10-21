@@ -1,0 +1,64 @@
+/* Header background color: #d3e1e5
+Schedule body alternate background color: #f8f8f8 
+On Time Color: #79a335
+delayed color: #a52b10
+header text color: #6c7a84
+main body text color: #222222
+*/
+
+
+
+
+body {
+  font-family: 'Roboto', sans-serif;
+  
+}
+
+div.wrapper {
+  margin: 0 auto;
+  width: 90%;
+}
+
+.caps {
+  text-transform: uppercase;
+}
+
+.on-time {
+  color: #79a335;
+}
+
+.delay {
+  color: #a52b10;
+}
+
+
+div#departures {
+  margin: 0 auto;
+  width: 80%;
+}
+
+table {
+  border: 4px solid #f8f8f8;
+  margin: 0 auto;
+  width: 85%;
+}
+
+.header-row {
+  background-color: #d3e1e5;
+} 
+
+tr th {
+  color: #6c7a84;
+  padding: 1.5%;
+  
+}
+
+td {
+  color: #222222;
+  padding: 2% 1.5%;
+  text-align: center;
+}
+
+.line-2, .line-4, .line-6, .line-8, .line-10, .line-12 {
+  background-color: #F8F8F8;
+}
