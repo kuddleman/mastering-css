@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Animations and Transitions</title>
+  <style>
+
+    div#wrapper {
+      width: 70%;
+      margin: 15% 10% 10% 15%;   
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 3em;
+      transform: skew(15deg, 30deg);
+    }
+
+    /* Without hover, this h1 above will start out skewed 
+    and remain skewed. */
+
+    /* h1:hover {
+      transform: skew(15deg, 30deg);
+    } */
+
+   /* Yes, you can skew text */
+
+    div.image_envelope {
+      text-align: center;
+      display: block;
+      border: 10px solid #d4af37;   
+      margin-bottom: 10%;  
+    }
+
+    img {
+      margin: 0 auto;
+      margin: 10% 5%;
+      /* opacity: .7;
+      /* transform: scale(1.5, 2.5); */
+      /* transform: rotate(20deg); */
+      /* transform: skew(10deg); */ 
+    } 
+
+    img#pan_am:hover {
+      transform: rotate(60deg);
+      transition: transform 3s;
+    }
+
+    img#pan_am {
+      opacity: 0.3;
+    }
+
+    img#twa {
+      transform: skew(20deg, 15deg);
+    }
+
+    img#tap:hover {
+      transform: translate(200px, 200px);
+      transition: transform 4s;
+    }
+
+    
+
+    /* CSS transformations: 
+
+    translate
+    scale 
+    rotate 
+    skew 
+    scale  */
+
+
+  
+  </style>
+</head>
+<body>
+  <div id="wrapper">
+    <h1>My favorite airplanes</h1>
+    <div class="image_envelope">
+      <img src="../images/pan_am_707.jpg" alt="Pan Am 707" id="pan_am">
+    </div>
+    <div class="image_envelope">
+      <img src="../images/twa_707.jpg" alt="Pan Am 707" id="twa">
+    </div>
+    <div class="image_envelope">
+      <img src="../images/tap_707.jpg" alt="Pan Am 707" id="tap">
+    </div>
+  </div>
+  
+</body>
+</html>
