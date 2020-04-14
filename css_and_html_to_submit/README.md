@@ -1,3 +1,5 @@
 to do:
+ Responsive Design (section 7)
 
-Positioning (section 6) and Responsive Design (section 7
+
+COMPLETED:Positioning (section 6) 
